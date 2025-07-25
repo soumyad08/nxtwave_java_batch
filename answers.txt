@@ -1,0 +1,28 @@
+1. What is Java?
+java is a high-level programming language and it is a Compiler based Programming Language.
+
+2. What is JDK, JRE, JVM?
+JDK (Java Development Kit) is a software development kit that provides tools for developing Java applications. 
+JRE (Java Runtime Environment) compiles the .java file to .class file.
+JVM (Java Virtual Machine) executes the compiled code.
+
+3. How to write a Java program? and how to compile it?
+To write a Java program, you need to create a class with a main method. The basic structure is:
+
+public class ClassName {
+    public static void main(String[] args) {
+        // Your code here
+    }
+}
+to compile , we us javac ClassName.java in the terminal.
+
+4. Why only 1 class file is allowed in a Java program?
+we can have multiple non public classes in a Java program, but only one public class is allowed per file. The name of the public class must match the filename. The main() method must be in the public class as it is the start point of the program.
+
+5. What is Data types? how many types of data types we used in Java and what are those?
+Data types are used to define the type of data a variable can hold. In Java, there are two main categories of data types:
+1. Primitive Data Types:
+   byte, short, int, long, float, double, char, boolean
+2. Non-Primitive Data Types:
+   String, Arrays, Classes, Interfaces, etc.
+
