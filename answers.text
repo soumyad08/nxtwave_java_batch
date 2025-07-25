@@ -1,0 +1,18 @@
+Ans 1. Java is a high-level language. It is owned by Oracle.
+       Used to build mobile applications like android.
+
+Ans 2. JDK:- In this kit we can write the entire java code and run it. It provides JRE and JVM.
+       JRE:- It provides an environment to run and compile the java code.
+       JVM:- In this we can compile the java code.
+
+Ans 3. First we need to create a file. For example assume the file name as
+       Newproject.java and create a class using the same file name. First we need to run the
+       javac filename and then java filename
+
+Ans 4. Yes, because as the java application starts at the main function and a single class
+       should consist of one main function.
+
+Ans 5. The type of the values we store in a variable is basically known as a data type.
+       In java we have two types of data types, primitive and non-primitive.
+       Primitive data types :- int, char, float, double ....
+       Non-primitive data types :- string, array, interface, class ....
