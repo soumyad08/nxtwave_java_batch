@@ -12,3 +12,26 @@
 *   3. Write a program to calculate the area of circle.
 *   4. Write a program to find maximum of two number.
 * */
+
+
+Theory part:-
+1) java is a programming language and it is a Compiler based Programming Language.. This is the most trustworthy language.
+
+2) JDK:- Java Development Kit
+=> In this we can write , compile and debug the codes
+JRE :- Java RunTime Environment
+=> It gives everything needed to run a Java program, including the JVM.
+JVM:- Java Virtual Machine
+=>It runs Java bytecode and makes Java programs work on any computer.
+
+3) For writing a Java Code these are two main lines we want:-
+=> public class (The filename we created)
+=> public static void main(String[] args(){}
+For compiling, In terminal we need to give (javac)
+
+4)Actually, you can have many classes, but only one class should have the main() method, because that’s where Java starts running the program.
+
+5)Data types:- Data types tell Java what kind of data we are using.
+THERE ARE 2 TYPES OF DATA TYPES:-
+1) PRIMITIVE DATA TYPE
+2) NON-PRIMITIVE DATA TYPE
