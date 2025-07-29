@@ -1,22 +1,5 @@
-/*
-*   Write the answer of the following questions:
-*   1. What is Java?
-*   2. What is JDK, JRE, JVM?
-*   3. How to write a Java program? and how to compile it?
-*   4. Why only 1 class file is allowed in a Java program?
-*   5. What is Data types? how many types of data types we used in Java and what are those?
-*
-*   Print the output of the following program?
-*   1. write a program to add any two nums.
-*   2. Write a program to check whether the number is even or, odd.
-*   3. Write a program to calculate the area of circle.
-*   4. Write a program to find maximum of two number.
-* */
-
-
-/*
     Operators Assignment
-1) The output of relational operators is _________.
+1) The output of relational operators is _________. ans:d
 
 Double
 Characters
@@ -608,21 +591,21 @@ Conclusion
 Operators are a fundamental part of Java programming, enabling developers to perform various tasks ranging from simple arithmetic to complex bitwise operations. Understanding the different types of operators and their precedence is crucial for writing efficient and effective Java code. The section provides a comprehensive overview and practical examples to help you get started with using operators in Java.
 
 Multiple Choice Questions
-1) The output of relational operators is _______________.
+1) The output of relational operators is _______________. ans:d
 
 Double
 Characters
 Integer
 Boolean
 
-2) Choose the odd one out of from the following.
+2) Choose the odd one out of from the following. ans:c
 
 |
 &
 -
 ^
 
-3) What will be the output of the following print statement?
+3) What will be the output of the following print statement? ans: b
 
 System.out.println("The output is: " + (1 || true));
 
@@ -631,7 +614,7 @@ The output is: true
 Error
 The output is: false
 
-4) What will be the output of 5 << 2 in Java?
+4) What will be the output of 5 << 2 in Java? ans:b
 
 1
 20
@@ -645,28 +628,40 @@ is even or odd using bitwise operations only?
 |
 ^
 ~
+ans:d
 
-
-6. What will be the output of the following code:
+6. What will be the output of the following code: ans:15
     int a = 5;
     int b = 2;
     System.out.println(a + b * a);
 
  7. What is the difference between ++x and x++? Give examples.
+ ans:preIncrement operator and postincrement operator
+ ++x does increment 1 to x and returns increment value
+ x++ does return first x and then updates/increments x after returning
+ example:
+ a=7
+ System.out.println(++a);//8
+ System.out.println(a++);  //8 then 8 is updated
 
- 8. Predict the Output:
+ 8. Predict the Output: ans:true
     int x = 10;
     int y = 5;
     boolean result = (x > y) && (y > 2);
     System.out.println(result);
 
-9. what will be the output of this code snippet?
+9. what will be the output of this code snippet? ans:Smaller
    int a = 10;
    int b = 20;
    int c = 30;
    System.out.println(a + b > c ? "Greater" : "Smaller");
 
 10. Explain the difference between & and && in Java. Give examples where their behavior differs.
+ans: bitwise and , boolean operator and
+example:& returns new number,
+&& returns boolean
+2&1=0
+2&&1=true
 
 11. Rewrite the following if-else block using a ternary operator:
     if (score >= 50) {
@@ -674,5 +669,4 @@ is even or odd using bitwise operations only?
     } else {
         grade = "Fail";
     }
-
-*/
+grade=(score>=50)?"Pass":"Fail";
