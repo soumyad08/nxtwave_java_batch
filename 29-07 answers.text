@@ -1,0 +1,18 @@
+1. boolean
+2. -
+3. error because || expects boolean but 1 is int
+4. 20
+5. &
+6. 15
+7. ++x is pre-increment; is post-increment.
+   int x = 5;
+   System.out.println(++x) prints 6
+   System.out.println(x++) prints 6 (then x becomes 7)
+8. true
+9. smaller
+10. & evaluates both sides always (bitwise or logical), && is short-circuit (logical only).
+    Example:
+    int a = 5;
+    if (a > 2 && a++ < 10) second condition only checked if first is true
+    if (a > 2 & a++ < 10) both conditions checked
+11. grade = (score >= 50) ? "Pass" : "Fail";
