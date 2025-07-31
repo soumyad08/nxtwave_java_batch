@@ -12,7 +12,36 @@ class Student{
         System.out.println("Student Roll no: "+rollno);
         System.out.println("Student Marks: "+marks);
     }
+    public void sayHello(){
+        System.out.println("hello my name is "+name)
+    }
 
+}
+class Company {
+    static String companyName = "Nxtwave";
+    private String employeeName;
+    public Company(String employeeName){
+        this.employeeName=employeeName;
+    }
+
+    public void display() {
+        System.out.println(employeeName + " works at " + companyName);
+    }
+}
+class Employee{
+    private String EmployeeName;
+    private String EmployeeId;
+    private String EmployeeRole;
+    public Employee(String EmployeeName, String EmployeeId, String EmployeeRole){
+        this.EmployeeName=EmployeeName;
+        this.EmployeeId=EmployeeId;
+        this.EmployeeRole=EmployeeRole;
+    }
+    public void getdetails(){
+        System.out.println("Employee Name :"+EmployeeName);
+        System.out.println("Employee Id :"+EmployeeId);
+        System.out.println("Employee Role :"+EmployeeRole);
+    }
 }
 class Car{
     private String Brand;
@@ -28,6 +57,9 @@ class Car{
         System.out.println("Car Model: "+Model);
         System.out.println("Car Year: "+year);
     }
+    public void drive() {
+        System.out.println("Car is driving...");
+    }
 }
 class Book{
     private String Title;
@@ -42,6 +74,13 @@ class Book{
         System.out.println("Book Title: "+Title);
         System.out.println("Book Author: "+Author);
         System.out.println("Book Price: "+Price);
+    }
+    public void setTitle(String title){
+        Title=title;
+        System.out.println("title changed");
+    }
+    public void printtitle() {
+        System.out.println("Book title:" + Title);
     }
 
 }
@@ -91,6 +130,16 @@ public class Oopsprgraming{
         b1.startengine();
         Truck t1=new Truck();
         t1.startengine();
+        Employee e1=new Employee("Ram", "IB5", "web devoloper");
+        Employee e2=new Employee("Ramu", "IB6", "web designer");
+        e1.getdetails();
+        e2.getdetails();
+        Company c11=new Company("ram");
+        c11.display();
+        student1.sayHello();
+        c1.drive();
+        book1.setTitle("new name");
+        book1.printtitle();
     }
 
 }
