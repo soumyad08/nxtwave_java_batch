@@ -13,7 +13,7 @@ class Student{
         System.out.println("Student Marks: "+marks);
     }
     public void sayHello(){
-        System.out.println("hello my name is "+name)
+        System.out.println("hello my name is "+name);
     }
 
 }
@@ -137,7 +137,7 @@ public class Oopsprgraming{
         Company c11=new Company("ram");
         c11.display();
         student1.sayHello();
-        c1.drive();
+        Car1.drive();
         book1.setTitle("new name");
         book1.printtitle();
     }
