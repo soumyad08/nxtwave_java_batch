@@ -38,3 +38,49 @@ Each vehicle has a method startEngine() that behaves differently for each subcla
 -----------------------------------------------------------------------------------
 
 
+//          Keywords Assignments
+1. Create two Employee objects using new and display their details.
+2. Use this to call current class method
+    class Car {
+        void start() {
+            System.out.println("Car is starting...");
+            // Call drive() using this
+        }
+
+        void drive() {
+            System.out.println("Car is driving...");
+        }
+    }
+
+3.Return current object using this:
+    class Book {
+        String title;
+
+        Book setTitle(String title) {
+            // Set title using this and return current object
+        }
+
+        void printTitle() {
+            System.out.println("Title is: " + title);
+        }
+    }
+
+4. Use new to create multiple objects in the main methods
+    class Student {
+        String name;
+
+        void sayHello() {
+            System.out.println("Hello, I am " + name);
+        }
+    }
+
+5. Use static variable shared among all objects:
+    class Company {
+        static String companyName = "Nxtwave";
+        String employeeName;
+
+        void display() {
+            System.out.println(employeeName + " works at " + companyName);
+        }
+    }
+
