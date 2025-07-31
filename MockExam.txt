@@ -1,0 +1,15 @@
+// Fundamentals Coding Questions:
+
+1. Reverse a String without using inbuilt methods.
+2. Check if a number is Prime.
+3. Check if a String is Palindrome.
+4. Find the factorial of a number using recursion.
+5. Print Fibonacci series up to n terms.
+
+// Write your basic understanding:
+
+1. What is an interface in Java? How is an interface different from an abstract class?
+2. What is the purpose of default and static methods in interfaces?
+3. What happens if two interfaces have the same method?
+4. What is JVM and what does it do?
+5. What is a constructor in Java? How many type of constructor available and write few points about them?
