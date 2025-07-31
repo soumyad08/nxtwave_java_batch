@@ -1,0 +1,40 @@
+1. Create a Student Class
+Objective: Practice encapsulation using getters and setters.
+Task:
+
+Fields: rollNumber, name, marks
+
+Use private variables and public getters/setters
+
+Print all info using a method.
+-------------------------------------
+2. Create a Car Class
+Objective: Demonstrate constructors and basic object methods.
+Task:
+
+Fields: brand, model, year
+
+Constructor to initialize them.
+
+Method displayCarDetails() to show info.
+------------------------------------------------------
+
+3. Build a Book Class
+   Objective: Simple class with method and object creation.
+   Task:
+
+   Fields: title, author, price
+
+   Method: displayBookDetails()
+
+   Create 2 book objects and print details.
+-------------------------------------------
+4. Create a class HelloWorld with a method sayHello() that prints "Hello, World!"
+-----------------------------------------------------------------------------
+
+5. Design a system for managing different types of vehicles. You need to
+create a base class called Vehicle, and derive subclasses like Car, Bike, and Truck.
+Each vehicle has a method startEngine() that behaves differently for each subclass.
+-----------------------------------------------------------------------------------
+
+
