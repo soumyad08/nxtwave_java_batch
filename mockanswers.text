@@ -1,0 +1,24 @@
+1. What is an interface in Java? How is an interface different from an abstract class?
+A. interface is like structure of the properties we will use in the class and it is totally different from abstactio.
+abstraction is hiding complexies of clases methods
+
+2. What is the purpose of default and static methods in interfaces?
+A. even though if we don't create any default methods in java it will have empty methods with class name as constructor
+it is like stucture of the class
+
+3. What happens if two interfaces have the same method?
+A. there won't be any error it is in different classed it class according tot he instances of the object so the data
+blocks of the objects is totally different even if the method names are same
+
+4. What is JVM and what does it do?
+A. JVM is a java virtual memory it keeps the data references in stank and data in heap
+it consists two types of references in it
+they are strong and weak references
+in strong references the data won't get deleted and even reference
+but in weak reference the data will be gone but the reference will be there
+strong reference is the default reference
+
+5. What is a constructor in Java? How many type of constructor available and write few points about them?
+A.there are two types of constructors empty constructors and parametic constructors in empty consstructors there won't
+be any parameters it is like a default constructor which is created by java itself wehre as parametric constructor is
+explicitly created by programmers which is used to set properties values
