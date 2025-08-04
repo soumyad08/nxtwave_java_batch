@@ -1,0 +1,16 @@
+/*
+Manage student records such as name, roll number, marks, and department.
+Provide functionalities like:
+
+Add student
+
+View all students
+
+Search by roll number
+
+Get students sorted by marks
+
+Group students by department
+
+Remove a student
+*/
