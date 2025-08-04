@@ -1,0 +1,33 @@
+1.
+An interface is like a contract blueprint where every child of the interface with implements it should have the contracted methods.
+Interface is different because:
+only one abstract class can be assigned to a child,while multiple "," separated interfaces can be given to a class
+Interface children uses implements while abstract children classes uses extends
+
+
+2.
+the static key word is used to assign a variable or method to perticular class not intance of object,
+the static methods or attributes are common for every class intances
+if it changes in one class it changes in every other class
+we wont use this key word to ascess it...it can be accessed directly...
+3.
+if two interfaces with same method is assigned to a class the class should implement and override the method, i guess once override is enogh
+4.
+Jvm is Java virtual machine
+it is a virtual memory management system which has gc(garbage collector,Stack, heap)
+it is vital part for any java file , it gives errors when syntax is wrong\
+5.
+A constructor acts as an initializer for any object to combine the attributes with parameters,
+Contructor has two types:
+default constructor,
+class App{
+    App(){//no paramenters
+
+    }
+}
+parameter constructor
+class App(){
+    App(String name){
+        sout(name);
+    }
+}
