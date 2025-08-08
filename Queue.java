@@ -7,21 +7,31 @@ public class Queue {
         // 1. Minimum Priority Queue
         // 2. Maximum Priority Queue.
 
-        PriorityQueue<Integer> maxPq = new PriorityQueue<>((Integer a, Integer b) -> b - a);
-        maxPq.add(5);
-        maxPq.add(2);
-        maxPq.add(7);
-        maxPq.add(9);
-        maxPq.add(1);
+        ArrayDeque<Integer> arrayDe = new ArrayDeque<>();
+        arrayDe.addFirst(5);
+        arrayDe.addFirst(2);
+        arrayDe.addFirst(7);
+        arrayDe.addFirst(9);
+        arrayDe.addFirst(1);
 
-        // for each operation
-        maxPq.forEach((Integer val) -> System.out.println(val));
+        System.out.println(arrayDe);
 
-        while(!maxPq.isEmpty()){
-            int val = maxPq.poll();
-            System.out.println("remove from top: " + val);
-        }
-        System.out.println(maxPq);
+        int removeEle = arrayDe.removeFirst();
+        System.out.println(removeEle);
+//
+//        while(!maxPQ.isEmpty()){
+//            int val = maxPQ.poll();
+//            System.out.println(" remove from top: " + val);
+//        }
+//
+//        // for each operation
+//        maxPq.forEach((Integer val) -> System.out.println(val));
+//
+//        while(!maxPq.isEmpty()){
+//            int val = maxPq.poll();
+//            System.out.println("remove from top: " + val);
+//        }
+//        System.out.println(maxPq);
 
     }
 }
