@@ -24,7 +24,7 @@
      * First we need to compile the code and then run till we make changes we can run if we make changes we should compile it again and run.
 
 4. Why only 1 class file is allowed in a Java program?
- Ans: Only one public class allowed for one file because JVM can find and run the program.
+ Ans: Only one public class allowed for one file because JVM can find and load the correct entry point and run the program.
 
 5. What is Data types? how many types of data types we used in Java and what are those?
  Ans: Data types what kind data can java hold or recognize in java we have two types of data types:
