@@ -1,0 +1,45 @@
+1. What is Java?
+ Ans: It is a high level programing language used for backend development.
+
+2. What is JDK, JRE, JVM?
+ Ans: * JDK is a Java development kit in which we can write code and compile it and run and we can also debug code and it also has inbuild libraries.
+     * JRE means Java Runtime Environment it is required to run java code.
+     * JVM means Java Virtual Machine means it is used to convert our code into machine code.
+
+3. How to write a Java program? and how to compile it?
+ Ans: * First create a file like Filename.java
+     * Write a class with the same filename u had created.
+        ex: public class Filename{}
+     * Write the main method inside it
+        ex: public static void main(String[] args){}
+     * After creating main method write your logic inside the main method
+        ex : The total code looks like this
+            public class Filename{
+                public static void main(String[] args){
+                    System.out.println("Write Your Logic Here");
+                }
+            }
+     * For compilation use terminal cmd : javac Filename.java
+     * For Running the code use terminal cmd : java Filename
+     * First we need to compile the code and then run till we make changes we can run if we make changes we should compile it again and run.
+
+4. Why only 1 class file is allowed in a Java program?
+ Ans: Only one public class allowed for one file because JVM can find and load the correct entry point and run the program.
+
+5. What is Data types? how many types of data types we used in Java and what are those?
+ Ans: Data types what kind data can java hold or recognize in java we have two types of data types:
+        * Primitive data types
+             * byte
+             * short
+             * int
+             * long
+             * float
+             * double
+             * char
+             * boolean
+        * Non-Primitive data types
+            * String
+            * arrays
+            * classes
+            * interfaces
+
