@@ -11,7 +11,9 @@ public class List {
         list.addLast(200);
         list.addLast(400);
         list.addLast(600);
-        list.addFirst(100);
+        list.addLast(100);
+
+        System.out.println(list);
 
         System.out.println("My First Element will: " + list.getFirst());
 
